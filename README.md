@@ -2,7 +2,7 @@
 
 ## Как запустить
 
-Запускаем mongodb и приложение
+Запускаем mongodb и приложение из папки sharding-repl-cache
 
 ```shell
 docker compose up -d
@@ -33,3 +33,8 @@ curl --silent http://ifconfig.me
 ## Доступные эндпоинты
 
 Список доступных эндпоинтов, swagger http://<ip виртуальной машины>:8080/docs
+
+# Вариант схемы с CDN
+![task5](schemas/schemas-6.drawio.png)
+
+# [ADR (Задания 7-10)](ADR.md)
